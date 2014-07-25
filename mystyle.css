@@ -1,9 +1,59 @@
 body{
-	background-image : url('image/background.jpg');
+	background-color : #0EBDB3;
 }
 .container{
 	width : 1200px;
 	margin: 20px auto;
+	display: flex;
+   align-items: center;
+   
+}
+
+a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.wrapper,
+.header nav,
+.footer nav {
+ width: 640px;
+ margin: 0 auto;
+}
+
+header.call-to-action,
+section p {
+ width: 440px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+
+nav li a {
+ text-decoration: none;
+ padding: 5px 10px;    
+ display: block;
+ border-radius: 3px;
+ color: #fff;
+ display: inline;
+ font-size: 1.3em;    
+}
+
+
+.header{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #016d66;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    margin-top: 0;
+
+  }
+li{
+	display : inline;
 }
 .name{
 	width : 250px;
@@ -11,7 +61,7 @@ body{
 	font-size: 3em;
    font-family: Calibri, Arial, Helvetica, sans-serif;
    font-weight: bold;
-   color : #F1EA20;
+   color : #FFF;
    text-align : center;
    display: flex;
    align-items: center;
@@ -21,18 +71,18 @@ h2{
 	font-size: 3em;
    font-family: Calibri, Arial, Helvetica, sans-serif;
    font-weight: bold;
-   color : #F1EA20;
+   color : #016d66;
 }
 .rank{
 	height : 100;
 	width : 98px;
 }
 .buttonStyle{
-	width : 250px;
-	height : 250;
-	background-color : #B00F72;
+	width : 150px;
+	height : 150;
+	background-color : #FFF;
 	font-size: 3em;
    font-family: Calibri, Arial, Helvetica, sans-serif;
    font-weight: bold;
-   color : #F1EA20;
+   color : #016d66;
 }
