@@ -78,7 +78,18 @@ h2{
 	width : 98px;
 }
 .buttonStyle{
+	margin-left: 0.5cm;
 	width : 150px;
+	height : 150;
+	background-color : #FFF;
+	font-size: 3em;
+   font-family: Calibri, Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color : #016d66;
+}
+.buttonEnd{
+	margin-left: 0.5cm;
+	width : 280px;
 	height : 150;
 	background-color : #FFF;
 	font-size: 3em;
