@@ -4,8 +4,7 @@ body{
 .container{
 	width : 1200px;
 	margin: 20px auto;
-	display: flex;
-   align-items: center;
+	
    
 }
 
@@ -86,6 +85,7 @@ h2{
    font-family: Calibri, Arial, Helvetica, sans-serif;
    font-weight: bold;
    color : #016d66;
+   
 }
 .buttonEnd{
 	margin-left: 0.5cm;
@@ -96,4 +96,38 @@ h2{
    font-family: Calibri, Arial, Helvetica, sans-serif;
    font-weight: bold;
    color : #016d66;
+}
+
+
+/*
+  Hide radio button (the round disc)
+*/
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+ 
+/*
+  Change the look'n'feel of labels (which are adjacent to radiobuttons).
+  Add some margin, padding to label
+*/
+input[type=radio] + label {
+    display:inline-block;
+    width : 150px;
+	 height : 150;
+	 margin: 20px;
+    color : #016d66;
+    font-size: 3em;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+/*
+ Change background color for label next to checked radio button
+ to make it look like highlighted button
+*/
+input[type=radio]:checked + label { 
+   background-image: none;
+    background-color:#d0d0d0;
 }
